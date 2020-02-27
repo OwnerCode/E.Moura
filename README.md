@@ -7,8 +7,15 @@ Empresa de Servicos e Vendas de produtos Hidraulicos e Pneumaticos
   * Requisitos * 
     - Cada Funcionario será responsavel por um Setor (Geral/Financeiro/Estoque...)
     
-  * Detalhes Funcionario * (Pensar)
-    - 
+  * Detalhes Funcionario * (Andamento)
+    - Nome: String
+    - Email: String
+    - Celular: String
+    - Grupo: Object (O grupo que empregado se enquadra na empresa e a que equipe ele/ela pertence.)
+    - Administração: Object (tempo de serviço e status do empregado, assim como informações sobre ausências)
+    - Endereço: Object
+    - Observação: String
+    - Anexos: <?>
 
 # Versão 2.0 ** Estoque ** (Planejamento)
   - CRUD produto do estoque
